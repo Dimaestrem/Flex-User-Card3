@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  background-color: black;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  min-width: 100px;
+  max-height: 700px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  
+}
+
+.description {
+  padding: 20px 100px;
+  color: grey;
+}
+.shoePrice {
+  font-size: 1.75rem;
+  color: red;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.watchPrice {
+  color: rgb(28, 110, 192);
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding: 10px 0px;
+}
+
+.shirtPrice {
+  color: rgb(169, 32, 169);
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding: 10px 0px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  margin-top: auto;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.shoeFooter {
+  background-color: red;
+  margin-top: auto;
+  padding: 20px 0px;
+}
+
+.watchFooter {
+  background-color: rgb(28, 110, 192);
+  margin-top: auto;
+  padding: 20px 0px;
+}
+.shirtFooter {
+    background-color: rgb(169, 32, 169);
+    margin-top: auto;
+    padding: 20px 0px;
+  }
+  
+
+.icon {
+  color: rgb(223, 223, 10);
+  padding-bottom: 20px;
+}
