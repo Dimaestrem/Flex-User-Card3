@@ -20,7 +20,7 @@ main {
   flex-direction: column;
   max-width: 400px;
   min-width: 100px;
-  max-height: 700px;
+  max-height: 1200px;
   align-items: center;
   flex-wrap: wrap;
   background-color: white;
@@ -32,7 +32,6 @@ main {
 img {
   width: 250px;
   height: 250px;
-  
 }
 
 .description {
@@ -40,51 +39,44 @@ img {
   color: grey;
 }
 .shoePrice {
-  font-size: 1.75rem;
   color: red;
-  font-weight: bold;
-  padding: 10px 0px;
 }
 
 .watchPrice {
   color: rgb(28, 110, 192);
-  font-weight: bold;
-  font-size: 1.75rem;
-  padding: 10px 0px;
 }
 
 .shirtPrice {
   color: rgb(169, 32, 169);
-  font-weight: bold;
-  font-size: 1.75rem;
-  padding: 10px 0px;
 }
 
 footer {
   color: white;
   width: 100%;
-  margin-top: auto;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
 
 .shoeFooter {
   background-color: red;
-  margin-top: auto;
   padding: 20px 0px;
 }
-
+.shoePrice,
+.shirtPrice,
+.watchPrice {
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding: 10px 0px;
+}
 .watchFooter {
   background-color: rgb(28, 110, 192);
-  margin-top: auto;
   padding: 20px 0px;
 }
 .shirtFooter {
-    background-color: rgb(169, 32, 169);
-    margin-top: auto;
-    padding: 20px 0px;
-  }
-  
+  background-color: rgb(169, 32, 169);
+  padding: 20px 0px;
+}
 
 .icon {
   color: rgb(223, 223, 10);
